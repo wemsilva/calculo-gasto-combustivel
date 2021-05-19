@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #CCDBFD;
+    width: 25rem;
+    height: 35rem;
+    justify-content: space-evenly;
+    border-radius: .3rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background-color: #ABC4FF;
+    text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 23rem;
+    height: 3rem;
+    border-radius: .3rem;
+}
+
+.input {
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 10rem;
+    height: 2rem;
+    font: bold 1rem serif;
+}
+
+.input label {
+    font: bold 1.2rem serif;
+}
+
+button {
+    width: 15rem;
+    height: 2.2rem;
+    background-color: #ABC4FF;
+    font: bold 1.5rem serif;
+    cursor: pointer;
+    border: none;
+    box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #abadff;
+}
+
+button:focus {
+    background-color: #7ba5ff;
+}
+
+.resu {
+    font: bold 1.2rem serif;
+}
+
+.result {
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+    background-color: black;
+    border-radius: .5rem;
+    color: white;
+    font: bold 1.2rem serif;
+    justify-content: center;
+    align-items: center;
+}

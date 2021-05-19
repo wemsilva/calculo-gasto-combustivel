@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de combustível</title>
+
+<link rel="stylesheet" href="calc.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <div class="title"><h1>Cálculo de combustível</h1></div>
+            <!-- Input para o úsuario colocar quantos KM total terá a viagem dele-->
+            <div class="input">
+            <label>KM da viagem:</label>
+            <input type="text" id="kmviagem">
+            </div>
+            <!--Preço da gasolina-->
+            <div class="input">
+                <label>Preço Gasolina:</label>
+                <input type="text" id="gasolina">
+            </div>
+            <!--Quantos KM o carro faz por litro-->
+            <div class="input">
+                <label>KM por litro:</label>
+                <input type="text" id="kmlitro">
+            </div>
+            
+            <button id="calc">Calcular</button>
+
+            <div class="resu">
+                <label>Resultado:</label>
+            </div>
+            <div class="result" id="resultado"></div>
+        </div>
+    </main>
+    <script src="calc.js"></script>
+</body>
+</html>
