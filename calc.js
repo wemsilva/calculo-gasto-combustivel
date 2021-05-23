@@ -14,7 +14,7 @@ function gasoGasto () {
         const gasto = ((kmviagem * gasolina.replace(',' , '.')) / kmlitro);
 
 
-        resultado.textContent = `Gasto é ${gasto.toLocaleString('pt-BR', {style: 'currency', currency:'BRL' })}`
+        resultado.textContent = `Você irá gastar: ${gasto.toLocaleString('pt-BR', {style: 'currency', currency:'BRL' })}`
     }
     else {
 
